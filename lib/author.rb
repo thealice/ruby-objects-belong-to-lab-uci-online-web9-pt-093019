@@ -3,6 +3,10 @@ class Author
   attr_accessor :author
 
   def initialize
-    @name = author
+    @author = author
+  end
+
+  def name
+    self.name = author
   end
 end
